@@ -27,7 +27,7 @@ def index():
 @app.route('/buy/<int:mid>')
 def buy(mid):
 
-    return render_template()
+    pass
 
 @app.route('/create', methods=['POST', 'GET'])
 def create():
